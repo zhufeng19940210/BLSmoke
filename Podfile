@@ -2,12 +2,18 @@
 # platform :ios, '9.0'
 
 target 'BLSmoke' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
   # 蒙版
   pod 'SVProgressHUD'
   # 键盘
-  pod 'IQKeyboardManager'	  
-# Pods for BLSmoke
-
+  pod 'IQKeyboardManager'
+  # 网络请求
+  pod 'AFNetworking'
+  # 网络监控
+  pod 'Reachability'	
+  # 数据存储
+  pod 'FMDB'
+  # 推送
+  pod 'JPush'
+  # 下拉刷新
+  pod 'MJRefresh'
 end

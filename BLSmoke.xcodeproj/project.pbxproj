@@ -9,11 +9,46 @@
 /* Begin PBXBuildFile section */
 		66F536739197F3DF574B6D54 /* libPods-BLSmoke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B67109124B3549100056767B /* libPods-BLSmoke.a */; };
 		BF3ABD4920B5E6A100413F65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABD4820B5E6A100413F65 /* AppDelegate.m */; };
-		BF3ABD4C20B5E6A100413F65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABD4B20B5E6A100413F65 /* ViewController.m */; };
-		BF3ABD4F20B5E6A100413F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABD4D20B5E6A100413F65 /* Main.storyboard */; };
+		BF3ABD4F20B5E6A100413F65 /* wifi.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABD4D20B5E6A100413F65 /* wifi.storyboard */; };
 		BF3ABD5120B5E6A100413F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABD5020B5E6A100413F65 /* Assets.xcassets */; };
 		BF3ABD5420B5E6A100413F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABD5220B5E6A100413F65 /* LaunchScreen.storyboard */; };
 		BF3ABD5720B5E6A100413F65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABD5620B5E6A100413F65 /* main.m */; };
+		BF3ABDA620B609FD00413F65 /* BLBaseMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDA420B609FD00413F65 /* BLBaseMainVC.m */; };
+		BF3ABDA720B609FD00413F65 /* BLBaseMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDA520B609FD00413F65 /* BLBaseMainVC.xib */; };
+		BF3ABDAA20B60A1500413F65 /* BLBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDA920B60A1500413F65 /* BLBaseVC.m */; };
+		BF3ABDB620B611D100413F65 /* GizWifiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDAD20B611D100413F65 /* GizWifiSDK.framework */; };
+		BF3ABDB720B611D100413F65 /* libBLEasyConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDAE20B611D100413F65 /* libBLEasyConfig.a */; };
+		BF3ABDB820B611D100413F65 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDAF20B611D100413F65 /* libcrypto.a */; };
+		BF3ABDB920B611D100413F65 /* libEasyLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDB020B611D100413F65 /* libEasyLink.a */; };
+		BF3ABDBA20B611D100413F65 /* libEsptouch_v0.3.5.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDB120B611D100413F65 /* libEsptouch_v0.3.5.3.a */; };
+		BF3ABDBB20B611D100413F65 /* libLibSimpleConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDB220B611D100413F65 /* libLibSimpleConfig.a */; };
+		BF3ABDBC20B611D100413F65 /* libLTLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDB320B611D100413F65 /* libLTLink.a */; };
+		BF3ABDBD20B611D100413F65 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDB420B611D100413F65 /* libssl.a */; };
+		BF3ABDBE20B611D100413F65 /* libWMOneShotConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDB520B611D100413F65 /* libWMOneShotConfig.a */; };
+		BF3ABDC020B6127800413F65 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDBF20B6127800413F65 /* AudioToolbox.framework */; };
+		BF3ABDC220B6128500413F65 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDC120B6128500413F65 /* SystemConfiguration.framework */; };
+		BF3ABDC420B6128D00413F65 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3ABDC320B6128D00413F65 /* CoreTelephony.framework */; };
+		BF3ABDCA20B613CA00413F65 /* gsm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDC820B613CA00413F65 /* gsm.storyboard */; };
+		BF3ABDCD20B6157C00413F65 /* BLWTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDCC20B6157C00413F65 /* BLWTabBarVC.m */; };
+		BF3ABDD020B6159100413F65 /* BLGTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDCF20B6159100413F65 /* BLGTabBarVC.m */; };
+		BF3ABDD420B615D800413F65 /* BLGsmHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDD220B615D800413F65 /* BLGsmHomeVC.m */; };
+		BF3ABDD520B615D800413F65 /* BLGsmHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDD320B615D800413F65 /* BLGsmHomeVC.xib */; };
+		BF3ABDD920B615EF00413F65 /* BLGsmSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDD720B615EF00413F65 /* BLGsmSettingVC.m */; };
+		BF3ABDDA20B615EF00413F65 /* BLGsmSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDD820B615EF00413F65 /* BLGsmSettingVC.xib */; };
+		BF3ABDDE20B6160200413F65 /* BLWifiHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDDC20B6160200413F65 /* BLWifiHomeVC.m */; };
+		BF3ABDDF20B6160200413F65 /* BLWifiHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDDD20B6160200413F65 /* BLWifiHomeVC.xib */; };
+		BF3ABDE320B6161700413F65 /* BLWifiSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDE120B6161700413F65 /* BLWifiSettingVC.m */; };
+		BF3ABDE420B6161700413F65 /* BLWifiSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDE220B6161700413F65 /* BLWifiSettingVC.xib */; };
+		BF3ABDE820B626AF00413F65 /* BLLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDE620B626AF00413F65 /* BLLoginVC.m */; };
+		BF3ABDE920B626AF00413F65 /* BLLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDE720B626AF00413F65 /* BLLoginVC.xib */; };
+		BF3ABDED20B626C000413F65 /* BLRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDEB20B626C000413F65 /* BLRegisterVC.m */; };
+		BF3ABDEE20B626C000413F65 /* BLRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDEC20B626C000413F65 /* BLRegisterVC.xib */; };
+		BF3ABDF220B626D500413F65 /* BLForgetPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDF020B626D500413F65 /* BLForgetPwdVC.m */; };
+		BF3ABDF320B626D500413F65 /* BLForgetPwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDF120B626D500413F65 /* BLForgetPwdVC.xib */; };
+		BF3ABDF720B626F200413F65 /* BLUpdatePwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDF520B626F200413F65 /* BLUpdatePwdVC.m */; };
+		BF3ABDF820B626F200413F65 /* BLUpdatePwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDF620B626F200413F65 /* BLUpdatePwdVC.xib */; };
+		BF3ABDFC20B6272100413F65 /* BLAddDeviceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABDFA20B6272100413F65 /* BLAddDeviceVC.m */; };
+		BF3ABDFD20B6272100413F65 /* BLAddDeviceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABDFB20B6272100413F65 /* BLAddDeviceVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +58,61 @@
 		BF3ABD4420B5E6A100413F65 /* BLSmoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLSmoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3ABD4720B5E6A100413F65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF3ABD4820B5E6A100413F65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF3ABD4A20B5E6A100413F65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF3ABD4B20B5E6A100413F65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF3ABD4E20B5E6A100413F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF3ABD4E20B5E6A100413F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/wifi.storyboard; sourceTree = "<group>"; };
 		BF3ABD5020B5E6A100413F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF3ABD5320B5E6A100413F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF3ABD5520B5E6A100413F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF3ABD5620B5E6A100413F65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF3ABDA320B609FD00413F65 /* BLBaseMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLBaseMainVC.h; sourceTree = "<group>"; };
+		BF3ABDA420B609FD00413F65 /* BLBaseMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLBaseMainVC.m; sourceTree = "<group>"; };
+		BF3ABDA520B609FD00413F65 /* BLBaseMainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLBaseMainVC.xib; sourceTree = "<group>"; };
+		BF3ABDA820B60A1500413F65 /* BLBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLBaseVC.h; sourceTree = "<group>"; };
+		BF3ABDA920B60A1500413F65 /* BLBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLBaseVC.m; sourceTree = "<group>"; };
+		BF3ABDAB20B60B2300413F65 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF3ABDAD20B611D100413F65 /* GizWifiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GizWifiSDK.framework; sourceTree = "<group>"; };
+		BF3ABDAE20B611D100413F65 /* libBLEasyConfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBLEasyConfig.a; sourceTree = "<group>"; };
+		BF3ABDAF20B611D100413F65 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		BF3ABDB020B611D100413F65 /* libEasyLink.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEasyLink.a; sourceTree = "<group>"; };
+		BF3ABDB120B611D100413F65 /* libEsptouch_v0.3.5.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEsptouch_v0.3.5.3.a; sourceTree = "<group>"; };
+		BF3ABDB220B611D100413F65 /* libLibSimpleConfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLibSimpleConfig.a; sourceTree = "<group>"; };
+		BF3ABDB320B611D100413F65 /* libLTLink.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLTLink.a; sourceTree = "<group>"; };
+		BF3ABDB420B611D100413F65 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		BF3ABDB520B611D100413F65 /* libWMOneShotConfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWMOneShotConfig.a; sourceTree = "<group>"; };
+		BF3ABDBF20B6127800413F65 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BF3ABDC120B6128500413F65 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BF3ABDC320B6128D00413F65 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BF3ABDC920B613CA00413F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/gsm.storyboard; sourceTree = "<group>"; };
+		BF3ABDCB20B6157C00413F65 /* BLWTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLWTabBarVC.h; sourceTree = "<group>"; };
+		BF3ABDCC20B6157C00413F65 /* BLWTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLWTabBarVC.m; sourceTree = "<group>"; };
+		BF3ABDCE20B6159100413F65 /* BLGTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLGTabBarVC.h; sourceTree = "<group>"; };
+		BF3ABDCF20B6159100413F65 /* BLGTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLGTabBarVC.m; sourceTree = "<group>"; };
+		BF3ABDD120B615D800413F65 /* BLGsmHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLGsmHomeVC.h; sourceTree = "<group>"; };
+		BF3ABDD220B615D800413F65 /* BLGsmHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLGsmHomeVC.m; sourceTree = "<group>"; };
+		BF3ABDD320B615D800413F65 /* BLGsmHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLGsmHomeVC.xib; sourceTree = "<group>"; };
+		BF3ABDD620B615EF00413F65 /* BLGsmSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLGsmSettingVC.h; sourceTree = "<group>"; };
+		BF3ABDD720B615EF00413F65 /* BLGsmSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLGsmSettingVC.m; sourceTree = "<group>"; };
+		BF3ABDD820B615EF00413F65 /* BLGsmSettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLGsmSettingVC.xib; sourceTree = "<group>"; };
+		BF3ABDDB20B6160200413F65 /* BLWifiHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLWifiHomeVC.h; sourceTree = "<group>"; };
+		BF3ABDDC20B6160200413F65 /* BLWifiHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLWifiHomeVC.m; sourceTree = "<group>"; };
+		BF3ABDDD20B6160200413F65 /* BLWifiHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLWifiHomeVC.xib; sourceTree = "<group>"; };
+		BF3ABDE020B6161700413F65 /* BLWifiSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLWifiSettingVC.h; sourceTree = "<group>"; };
+		BF3ABDE120B6161700413F65 /* BLWifiSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLWifiSettingVC.m; sourceTree = "<group>"; };
+		BF3ABDE220B6161700413F65 /* BLWifiSettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLWifiSettingVC.xib; sourceTree = "<group>"; };
+		BF3ABDE520B626AF00413F65 /* BLLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLLoginVC.h; sourceTree = "<group>"; };
+		BF3ABDE620B626AF00413F65 /* BLLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLLoginVC.m; sourceTree = "<group>"; };
+		BF3ABDE720B626AF00413F65 /* BLLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLLoginVC.xib; sourceTree = "<group>"; };
+		BF3ABDEA20B626C000413F65 /* BLRegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLRegisterVC.h; sourceTree = "<group>"; };
+		BF3ABDEB20B626C000413F65 /* BLRegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLRegisterVC.m; sourceTree = "<group>"; };
+		BF3ABDEC20B626C000413F65 /* BLRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLRegisterVC.xib; sourceTree = "<group>"; };
+		BF3ABDEF20B626D500413F65 /* BLForgetPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLForgetPwdVC.h; sourceTree = "<group>"; };
+		BF3ABDF020B626D500413F65 /* BLForgetPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLForgetPwdVC.m; sourceTree = "<group>"; };
+		BF3ABDF120B626D500413F65 /* BLForgetPwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLForgetPwdVC.xib; sourceTree = "<group>"; };
+		BF3ABDF420B626F200413F65 /* BLUpdatePwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLUpdatePwdVC.h; sourceTree = "<group>"; };
+		BF3ABDF520B626F200413F65 /* BLUpdatePwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLUpdatePwdVC.m; sourceTree = "<group>"; };
+		BF3ABDF620B626F200413F65 /* BLUpdatePwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLUpdatePwdVC.xib; sourceTree = "<group>"; };
+		BF3ABDF920B6272100413F65 /* BLAddDeviceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLAddDeviceVC.h; sourceTree = "<group>"; };
+		BF3ABDFA20B6272100413F65 /* BLAddDeviceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLAddDeviceVC.m; sourceTree = "<group>"; };
+		BF3ABDFB20B6272100413F65 /* BLAddDeviceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BLAddDeviceVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +120,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3ABDC420B6128D00413F65 /* CoreTelephony.framework in Frameworks */,
+				BF3ABDC220B6128500413F65 /* SystemConfiguration.framework in Frameworks */,
+				BF3ABDC020B6127800413F65 /* AudioToolbox.framework in Frameworks */,
+				BF3ABDBB20B611D100413F65 /* libLibSimpleConfig.a in Frameworks */,
+				BF3ABDB720B611D100413F65 /* libBLEasyConfig.a in Frameworks */,
+				BF3ABDBD20B611D100413F65 /* libssl.a in Frameworks */,
+				BF3ABDBA20B611D100413F65 /* libEsptouch_v0.3.5.3.a in Frameworks */,
 				66F536739197F3DF574B6D54 /* libPods-BLSmoke.a in Frameworks */,
+				BF3ABDB820B611D100413F65 /* libcrypto.a in Frameworks */,
+				BF3ABDBE20B611D100413F65 /* libWMOneShotConfig.a in Frameworks */,
+				BF3ABDB920B611D100413F65 /* libEasyLink.a in Frameworks */,
+				BF3ABDB620B611D100413F65 /* GizWifiSDK.framework in Frameworks */,
+				BF3ABDBC20B611D100413F65 /* libLTLink.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,22 +169,430 @@
 		BF3ABD4620B5E6A100413F65 /* BLSmoke */ = {
 			isa = PBXGroup;
 			children = (
+				BF3ABD5D20B5EEFD00413F65 /* Vender */,
+				BF3ABD5E20B5EEFD00413F65 /* Classes */,
 				BF3ABD4720B5E6A100413F65 /* AppDelegate.h */,
 				BF3ABD4820B5E6A100413F65 /* AppDelegate.m */,
-				BF3ABD4A20B5E6A100413F65 /* ViewController.h */,
-				BF3ABD4B20B5E6A100413F65 /* ViewController.m */,
-				BF3ABD4D20B5E6A100413F65 /* Main.storyboard */,
 				BF3ABD5020B5E6A100413F65 /* Assets.xcassets */,
 				BF3ABD5220B5E6A100413F65 /* LaunchScreen.storyboard */,
-				BF3ABD5520B5E6A100413F65 /* Info.plist */,
+				BF3ABDC820B613CA00413F65 /* gsm.storyboard */,
+				BF3ABD4D20B5E6A100413F65 /* wifi.storyboard */,
 				BF3ABD5620B5E6A100413F65 /* main.m */,
+				BF3ABD5520B5E6A100413F65 /* Info.plist */,
+				BF3ABDAB20B60B2300413F65 /* PrefixHeader.pch */,
 			);
 			path = BLSmoke;
+			sourceTree = "<group>";
+		};
+		BF3ABD5D20B5EEFD00413F65 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDAC20B611D100413F65 /* StaticLibrary */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		BF3ABD5E20B5EEFD00413F65 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD9C20B6094700413F65 /* Base */,
+				BF3ABD8B20B6094700413F65 /* GSM */,
+				BF3ABD7620B6094700413F65 /* WIFI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BF3ABD7620B6094700413F65 /* WIFI */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD7F20B6094700413F65 /* W_LSF */,
+				BF3ABD7720B6094700413F65 /* W_Control */,
+				BF3ABD7B20B6094700413F65 /* W_Home */,
+				BF3ABD8320B6094700413F65 /* W_Main */,
+				BF3ABD8720B6094700413F65 /* W_Setting */,
+			);
+			path = WIFI;
+			sourceTree = "<group>";
+		};
+		BF3ABD7720B6094700413F65 /* W_Control */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD7820B6094700413F65 /* Model */,
+				BF3ABD7920B6094700413F65 /* View */,
+				BF3ABD7A20B6094700413F65 /* ViewController */,
+			);
+			path = W_Control;
+			sourceTree = "<group>";
+		};
+		BF3ABD7820B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD7920B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD7A20B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABD7B20B6094700413F65 /* W_Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD7C20B6094700413F65 /* Model */,
+				BF3ABD7D20B6094700413F65 /* View */,
+				BF3ABD7E20B6094700413F65 /* ViewController */,
+			);
+			path = W_Home;
+			sourceTree = "<group>";
+		};
+		BF3ABD7C20B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD7D20B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD7E20B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDDB20B6160200413F65 /* BLWifiHomeVC.h */,
+				BF3ABDDC20B6160200413F65 /* BLWifiHomeVC.m */,
+				BF3ABDDD20B6160200413F65 /* BLWifiHomeVC.xib */,
+				BF3ABDF920B6272100413F65 /* BLAddDeviceVC.h */,
+				BF3ABDFA20B6272100413F65 /* BLAddDeviceVC.m */,
+				BF3ABDFB20B6272100413F65 /* BLAddDeviceVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABD7F20B6094700413F65 /* W_LSF */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD8020B6094700413F65 /* Model */,
+				BF3ABD8120B6094700413F65 /* View */,
+				BF3ABD8220B6094700413F65 /* ViewController */,
+			);
+			path = W_LSF;
+			sourceTree = "<group>";
+		};
+		BF3ABD8020B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD8120B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD8220B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDE520B626AF00413F65 /* BLLoginVC.h */,
+				BF3ABDE620B626AF00413F65 /* BLLoginVC.m */,
+				BF3ABDE720B626AF00413F65 /* BLLoginVC.xib */,
+				BF3ABDEA20B626C000413F65 /* BLRegisterVC.h */,
+				BF3ABDEB20B626C000413F65 /* BLRegisterVC.m */,
+				BF3ABDEC20B626C000413F65 /* BLRegisterVC.xib */,
+				BF3ABDEF20B626D500413F65 /* BLForgetPwdVC.h */,
+				BF3ABDF020B626D500413F65 /* BLForgetPwdVC.m */,
+				BF3ABDF120B626D500413F65 /* BLForgetPwdVC.xib */,
+				BF3ABDF420B626F200413F65 /* BLUpdatePwdVC.h */,
+				BF3ABDF520B626F200413F65 /* BLUpdatePwdVC.m */,
+				BF3ABDF620B626F200413F65 /* BLUpdatePwdVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABD8320B6094700413F65 /* W_Main */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD8420B6094700413F65 /* Model */,
+				BF3ABD8520B6094700413F65 /* View */,
+				BF3ABD8620B6094700413F65 /* ViewController */,
+			);
+			path = W_Main;
+			sourceTree = "<group>";
+		};
+		BF3ABD8420B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD8520B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD8620B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDCB20B6157C00413F65 /* BLWTabBarVC.h */,
+				BF3ABDCC20B6157C00413F65 /* BLWTabBarVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABD8720B6094700413F65 /* W_Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD8820B6094700413F65 /* Model */,
+				BF3ABD8920B6094700413F65 /* View */,
+				BF3ABD8A20B6094700413F65 /* ViewController */,
+			);
+			path = W_Setting;
+			sourceTree = "<group>";
+		};
+		BF3ABD8820B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD8920B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD8A20B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDE020B6161700413F65 /* BLWifiSettingVC.h */,
+				BF3ABDE120B6161700413F65 /* BLWifiSettingVC.m */,
+				BF3ABDE220B6161700413F65 /* BLWifiSettingVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABD8B20B6094700413F65 /* GSM */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD8C20B6094700413F65 /* G_Control */,
+				BF3ABD9020B6094700413F65 /* G_Home */,
+				BF3ABD9420B6094700413F65 /* G_Main */,
+				BF3ABD9820B6094700413F65 /* G_Setting */,
+			);
+			path = GSM;
+			sourceTree = "<group>";
+		};
+		BF3ABD8C20B6094700413F65 /* G_Control */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD8D20B6094700413F65 /* Model */,
+				BF3ABD8E20B6094700413F65 /* View */,
+				BF3ABD8F20B6094700413F65 /* ViewController */,
+			);
+			path = G_Control;
+			sourceTree = "<group>";
+		};
+		BF3ABD8D20B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD8E20B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD8F20B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABD9020B6094700413F65 /* G_Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD9120B6094700413F65 /* Model */,
+				BF3ABD9220B6094700413F65 /* View */,
+				BF3ABD9320B6094700413F65 /* ViewController */,
+			);
+			path = G_Home;
+			sourceTree = "<group>";
+		};
+		BF3ABD9120B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD9220B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD9320B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDD120B615D800413F65 /* BLGsmHomeVC.h */,
+				BF3ABDD220B615D800413F65 /* BLGsmHomeVC.m */,
+				BF3ABDD320B615D800413F65 /* BLGsmHomeVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABD9420B6094700413F65 /* G_Main */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD9520B6094700413F65 /* Model */,
+				BF3ABD9620B6094700413F65 /* View */,
+				BF3ABD9720B6094700413F65 /* ViewController */,
+			);
+			path = G_Main;
+			sourceTree = "<group>";
+		};
+		BF3ABD9520B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD9620B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD9720B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDCE20B6159100413F65 /* BLGTabBarVC.h */,
+				BF3ABDCF20B6159100413F65 /* BLGTabBarVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABD9820B6094700413F65 /* G_Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD9920B6094700413F65 /* Model */,
+				BF3ABD9A20B6094700413F65 /* View */,
+				BF3ABD9B20B6094700413F65 /* ViewController */,
+			);
+			path = G_Setting;
+			sourceTree = "<group>";
+		};
+		BF3ABD9920B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD9A20B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD9B20B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDD620B615EF00413F65 /* BLGsmSettingVC.h */,
+				BF3ABDD720B615EF00413F65 /* BLGsmSettingVC.m */,
+				BF3ABDD820B615EF00413F65 /* BLGsmSettingVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABD9C20B6094700413F65 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD9D20B6094700413F65 /* Model */,
+				BF3ABD9E20B6094700413F65 /* View */,
+				BF3ABD9F20B6094700413F65 /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BF3ABD9D20B6094700413F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF3ABD9E20B6094700413F65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF3ABD9F20B6094700413F65 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDA820B60A1500413F65 /* BLBaseVC.h */,
+				BF3ABDA920B60A1500413F65 /* BLBaseVC.m */,
+				BF3ABDA320B609FD00413F65 /* BLBaseMainVC.h */,
+				BF3ABDA420B609FD00413F65 /* BLBaseMainVC.m */,
+				BF3ABDA520B609FD00413F65 /* BLBaseMainVC.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF3ABDAC20B611D100413F65 /* StaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABDAD20B611D100413F65 /* GizWifiSDK.framework */,
+				BF3ABDAE20B611D100413F65 /* libBLEasyConfig.a */,
+				BF3ABDAF20B611D100413F65 /* libcrypto.a */,
+				BF3ABDB020B611D100413F65 /* libEasyLink.a */,
+				BF3ABDB120B611D100413F65 /* libEsptouch_v0.3.5.3.a */,
+				BF3ABDB220B611D100413F65 /* libLibSimpleConfig.a */,
+				BF3ABDB320B611D100413F65 /* libLTLink.a */,
+				BF3ABDB420B611D100413F65 /* libssl.a */,
+				BF3ABDB520B611D100413F65 /* libWMOneShotConfig.a */,
+			);
+			path = StaticLibrary;
 			sourceTree = "<group>";
 		};
 		F051CA647D77E1AF2CC7EF3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF3ABDC320B6128D00413F65 /* CoreTelephony.framework */,
+				BF3ABDC120B6128500413F65 /* SystemConfiguration.framework */,
+				BF3ABDBF20B6127800413F65 /* AudioToolbox.framework */,
 				B67109124B3549100056767B /* libPods-BLSmoke.a */,
 			);
 			name = Frameworks;
@@ -155,9 +658,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3ABDFD20B6272100413F65 /* BLAddDeviceVC.xib in Resources */,
+				BF3ABDDF20B6160200413F65 /* BLWifiHomeVC.xib in Resources */,
+				BF3ABDE420B6161700413F65 /* BLWifiSettingVC.xib in Resources */,
+				BF3ABDEE20B626C000413F65 /* BLRegisterVC.xib in Resources */,
+				BF3ABDCA20B613CA00413F65 /* gsm.storyboard in Resources */,
+				BF3ABDD520B615D800413F65 /* BLGsmHomeVC.xib in Resources */,
+				BF3ABDE920B626AF00413F65 /* BLLoginVC.xib in Resources */,
+				BF3ABDA720B609FD00413F65 /* BLBaseMainVC.xib in Resources */,
+				BF3ABDF820B626F200413F65 /* BLUpdatePwdVC.xib in Resources */,
+				BF3ABDF320B626D500413F65 /* BLForgetPwdVC.xib in Resources */,
 				BF3ABD5420B5E6A100413F65 /* LaunchScreen.storyboard in Resources */,
 				BF3ABD5120B5E6A100413F65 /* Assets.xcassets in Resources */,
-				BF3ABD4F20B5E6A100413F65 /* Main.storyboard in Resources */,
+				BF3ABD4F20B5E6A100413F65 /* wifi.storyboard in Resources */,
+				BF3ABDDA20B615EF00413F65 /* BLGsmSettingVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,11 +686,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BLSmoke/Pods-BLSmoke-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,21 +725,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3ABD4C20B5E6A100413F65 /* ViewController.m in Sources */,
+				BF3ABDD420B615D800413F65 /* BLGsmHomeVC.m in Sources */,
+				BF3ABDA620B609FD00413F65 /* BLBaseMainVC.m in Sources */,
+				BF3ABDE320B6161700413F65 /* BLWifiSettingVC.m in Sources */,
 				BF3ABD5720B5E6A100413F65 /* main.m in Sources */,
 				BF3ABD4920B5E6A100413F65 /* AppDelegate.m in Sources */,
+				BF3ABDF220B626D500413F65 /* BLForgetPwdVC.m in Sources */,
+				BF3ABDED20B626C000413F65 /* BLRegisterVC.m in Sources */,
+				BF3ABDFC20B6272100413F65 /* BLAddDeviceVC.m in Sources */,
+				BF3ABDAA20B60A1500413F65 /* BLBaseVC.m in Sources */,
+				BF3ABDDE20B6160200413F65 /* BLWifiHomeVC.m in Sources */,
+				BF3ABDF720B626F200413F65 /* BLUpdatePwdVC.m in Sources */,
+				BF3ABDD020B6159100413F65 /* BLGTabBarVC.m in Sources */,
+				BF3ABDCD20B6157C00413F65 /* BLWTabBarVC.m in Sources */,
+				BF3ABDE820B626AF00413F65 /* BLLoginVC.m in Sources */,
+				BF3ABDD920B615EF00413F65 /* BLGsmSettingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF3ABD4D20B5E6A100413F65 /* Main.storyboard */ = {
+		BF3ABD4D20B5E6A100413F65 /* wifi.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BF3ABD4E20B5E6A100413F65 /* Base */,
 			);
-			name = Main.storyboard;
+			name = wifi.storyboard;
 			sourceTree = "<group>";
 		};
 		BF3ABD5220B5E6A100413F65 /* LaunchScreen.storyboard */ = {
@@ -232,6 +760,14 @@
 				BF3ABD5320B5E6A100413F65 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BF3ABDC820B613CA00413F65 /* gsm.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3ABDC920B613CA00413F65 /* Base */,
+			);
+			name = gsm.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,6 +811,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BLSmoke/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -328,6 +865,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BLSmoke/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -348,11 +886,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLSmoke/Vender/StaticLibrary",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BLSmoke/PrefixHeader.pch";
 				INFOPLIST_FILE = BLSmoke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLSmoke/Vender/StaticLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.BLSmoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -363,11 +911,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R48RV923F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLSmoke/Vender/StaticLibrary",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BLSmoke/PrefixHeader.pch";
 				INFOPLIST_FILE = BLSmoke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLSmoke/Vender/StaticLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.BLSmoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
