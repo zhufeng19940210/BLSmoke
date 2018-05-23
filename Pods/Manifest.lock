@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (5.0.0)
+  - SVProgressHUD (2.2.1)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IQKeyboardManager
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 5edc5bcd5cd3e6982924e6318b82c57099eb0a6c
+  SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
+
+PODFILE CHECKSUM: 38cbb813912d0766b39b0d64cb32c0414ce1e51d
+
+COCOAPODS: 1.5.0

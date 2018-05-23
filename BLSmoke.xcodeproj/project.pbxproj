@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F536739197F3DF574B6D54 /* libPods-BLSmoke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B67109124B3549100056767B /* libPods-BLSmoke.a */; };
+		BF3ABD4920B5E6A100413F65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABD4820B5E6A100413F65 /* AppDelegate.m */; };
+		BF3ABD4C20B5E6A100413F65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABD4B20B5E6A100413F65 /* ViewController.m */; };
+		BF3ABD4F20B5E6A100413F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABD4D20B5E6A100413F65 /* Main.storyboard */; };
+		BF3ABD5120B5E6A100413F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABD5020B5E6A100413F65 /* Assets.xcassets */; };
+		BF3ABD5420B5E6A100413F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3ABD5220B5E6A100413F65 /* LaunchScreen.storyboard */; };
+		BF3ABD5720B5E6A100413F65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3ABD5620B5E6A100413F65 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3571748D58AD9B8266E8626E /* Pods-BLSmoke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLSmoke.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLSmoke/Pods-BLSmoke.release.xcconfig"; sourceTree = "<group>"; };
+		76CCFBD5091F532051770A85 /* Pods-BLSmoke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLSmoke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLSmoke/Pods-BLSmoke.debug.xcconfig"; sourceTree = "<group>"; };
+		B67109124B3549100056767B /* libPods-BLSmoke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLSmoke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3ABD4420B5E6A100413F65 /* BLSmoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLSmoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3ABD4720B5E6A100413F65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF3ABD4820B5E6A100413F65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF3ABD4A20B5E6A100413F65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF3ABD4B20B5E6A100413F65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF3ABD4E20B5E6A100413F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF3ABD5020B5E6A100413F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF3ABD5320B5E6A100413F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF3ABD5520B5E6A100413F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3ABD5620B5E6A100413F65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF3ABD4120B5E6A100413F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F536739197F3DF574B6D54 /* libPods-BLSmoke.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5594B8BFD0FAF650D699298A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76CCFBD5091F532051770A85 /* Pods-BLSmoke.debug.xcconfig */,
+				3571748D58AD9B8266E8626E /* Pods-BLSmoke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF3ABD3B20B5E6A100413F65 = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD4620B5E6A100413F65 /* BLSmoke */,
+				BF3ABD4520B5E6A100413F65 /* Products */,
+				5594B8BFD0FAF650D699298A /* Pods */,
+				F051CA647D77E1AF2CC7EF3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF3ABD4520B5E6A100413F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD4420B5E6A100413F65 /* BLSmoke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF3ABD4620B5E6A100413F65 /* BLSmoke */ = {
+			isa = PBXGroup;
+			children = (
+				BF3ABD4720B5E6A100413F65 /* AppDelegate.h */,
+				BF3ABD4820B5E6A100413F65 /* AppDelegate.m */,
+				BF3ABD4A20B5E6A100413F65 /* ViewController.h */,
+				BF3ABD4B20B5E6A100413F65 /* ViewController.m */,
+				BF3ABD4D20B5E6A100413F65 /* Main.storyboard */,
+				BF3ABD5020B5E6A100413F65 /* Assets.xcassets */,
+				BF3ABD5220B5E6A100413F65 /* LaunchScreen.storyboard */,
+				BF3ABD5520B5E6A100413F65 /* Info.plist */,
+				BF3ABD5620B5E6A100413F65 /* main.m */,
+			);
+			path = BLSmoke;
+			sourceTree = "<group>";
+		};
+		F051CA647D77E1AF2CC7EF3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B67109124B3549100056767B /* libPods-BLSmoke.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF3ABD4320B5E6A100413F65 /* BLSmoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3ABD5A20B5E6A100413F65 /* Build configuration list for PBXNativeTarget "BLSmoke" */;
+			buildPhases = (
+				77E77698F7C52FE955463AF8 /* [CP] Check Pods Manifest.lock */,
+				BF3ABD4020B5E6A100413F65 /* Sources */,
+				BF3ABD4120B5E6A100413F65 /* Frameworks */,
+				BF3ABD4220B5E6A100413F65 /* Resources */,
+				37828CC96568ED985D7B3B59 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLSmoke;
+			productName = BLSmoke;
+			productReference = BF3ABD4420B5E6A100413F65 /* BLSmoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3ABD3C20B5E6A100413F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zhufeng;
+				TargetAttributes = {
+					BF3ABD4320B5E6A100413F65 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF3ABD3F20B5E6A100413F65 /* Build configuration list for PBXProject "BLSmoke" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF3ABD3B20B5E6A100413F65;
+			productRefGroup = BF3ABD4520B5E6A100413F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3ABD4320B5E6A100413F65 /* BLSmoke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF3ABD4220B5E6A100413F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3ABD5420B5E6A100413F65 /* LaunchScreen.storyboard in Resources */,
+				BF3ABD5120B5E6A100413F65 /* Assets.xcassets in Resources */,
+				BF3ABD4F20B5E6A100413F65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37828CC96568ED985D7B3B59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BLSmoke/Pods-BLSmoke-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLSmoke/Pods-BLSmoke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E77698F7C52FE955463AF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLSmoke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF3ABD4020B5E6A100413F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3ABD4C20B5E6A100413F65 /* ViewController.m in Sources */,
+				BF3ABD5720B5E6A100413F65 /* main.m in Sources */,
+				BF3ABD4920B5E6A100413F65 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF3ABD4D20B5E6A100413F65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3ABD4E20B5E6A100413F65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF3ABD5220B5E6A100413F65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3ABD5320B5E6A100413F65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF3ABD5820B5E6A100413F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF3ABD5920B5E6A100413F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF3ABD5B20B5E6A100413F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CCFBD5091F532051770A85 /* Pods-BLSmoke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R48RV923F;
+				INFOPLIST_FILE = BLSmoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.BLSmoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF3ABD5C20B5E6A100413F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3571748D58AD9B8266E8626E /* Pods-BLSmoke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R48RV923F;
+				INFOPLIST_FILE = BLSmoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailing.BLSmoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3ABD3F20B5E6A100413F65 /* Build configuration list for PBXProject "BLSmoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3ABD5820B5E6A100413F65 /* Debug */,
+				BF3ABD5920B5E6A100413F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3ABD5A20B5E6A100413F65 /* Build configuration list for PBXNativeTarget "BLSmoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3ABD5B20B5E6A100413F65 /* Debug */,
+				BF3ABD5C20B5E6A100413F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3ABD3C20B5E6A100413F65 /* Project object */;
+}
